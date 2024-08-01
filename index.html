@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Top appbar -->
+    <nav>
+      <div class="leading">
+        <a href="#">
+          <img src="images/logo.svg" alt="Facebook" class="logo" />
+        </a>
+        <div class="search-bar">
+          <img src="images/search.svg" alt="Search" />
+          <input
+            type="text"
+            placeholder="Search Facebook"
+            class="input-field"
+          />
+        </div>
+      </div>
+
+      <div class="headline">
+        <div class="headline-item headline-item-selected">
+          <a href="#"><img src="images/home.svg" alt="Home" /></a>
+        </div>
+        <div class="headline-item">
+          <a href="#"><img src="images/video.svg" alt="Video" /></a>
+        </div>
+        <div class="headline-item">
+          <a href="#"><img src="images/marketplace.svg" alt="Video" /></a>
+        </div>
+        <div class="headline-item">
+          <a href="#"><img src="images/groups.svg" alt="Video" /></a>
+        </div>
+        <div class="headline-item">
+          <a href="#"><img src="images/gaming.svg" alt="Video" /></a>
+        </div>
+      </div>
+
+      <div class="trailing">
+        <div class="trailing-item">
+          <a href="#"><img src="images/menu.svg" alt="Menu" /></a>
+        </div>
+        <div class="trailing-item">
+          <a href="#"><img src="images/messenger.svg" alt="Messenger" /></a>
+        </div>
+        <div class="trailing-item badge">
+          <a href="#"
+            ><img src="images/notifications.svg" alt="Notifications"
+          /></a>
+        </div>
+        <div class="trailing-item">
+          <img
+            src="images/profile.jpg"
+            alt="Account"
+            style="border-radius: 50%; width: 100%; height: 100%"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- Left sidebar -->
+      <div class="left-sidebar">
+        <div class="item">
+          <img src="images/profile.jpg" alt="Profile" class="profile" />
+          <span>Emma Johnson</span>
+        </div>
+
+        <div class="item">
+          <img src="images/friends.png" alt="Friends" class="icon" />
+          <span>Friends</span>
+        </div>
+
+        <div class="item">
+          <img src="images/memories.png" alt="Memories" class="icon" />
+          <span>Memories</span>
+        </div>
+
+        <div class="item">
+          <img src="images/saved.png" alt="Saved" class="icon" />
+          <span>Saved</span>
+        </div>
+
+        <div class="item">
+          <img src="images/groups.png" alt="Groups" class="icon" />
+          <span>Groups</span>
+        </div>
+
+        <div class="item">
+          <img src="images/video.png" alt="Video" class="icon" />
+          <span>Video</span>
+        </div>
+
+        <div class="item">
+          <img src="images/marketplace.png" alt="Marketplace" class="icon" />
+          <span>Marketplace</span>
+        </div>
+
+        <div class="item">
+          <img src="images/feeds.png" alt="Feeds" class="icon" />
+          <span>Feeds</span>
+        </div>
+
+        <div class="item">
+          <img src="images/events.png" alt="Events" class="icon" />
+          <span>Events</span>
+        </div>
+
+        <div class="item">
+          <img src="images/ads.png" alt="Ads Manager" class="icon" />
+          <span>Ads Manager</span>
+        </div>
+
+        <div class="item">
+          <div class="button">
+            <img src="images/more.svg" alt="See more" />
+          </div>
+          <span>See more</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="footer">
+          <span>
+            <a href="#">Privacy • </a>
+            <a href="#">Terms • </a>
+            <a href="#">Advertasing • </a>
+            <a href="#">Ad choices • </a>
+            <a href="#">Cookies • </a>
+            <a href="#">More • </a>
+            <p>Meta © 2024</p>
+          </span>
+        </div>
+      </div>
+
+      <!-- Posts -->
+      <div class="content">
+        <div class="posts">
+          <!-- Stories -->
+          <div class="stories">
+            <div class="story-create">
+              <img class="story-image" src="images/status1.jpg" alt="Story" />
+              <img class="story-profile" src="images/create.svg" alt="Upload" />
+              <p>Create story</p>
+            </div>
+
+            <div class="story">
+              <img class="story-image" src="images/status2.png" alt="Story" />
+              <div class="story-divider"></div>
+              <img
+                class="story-profile"
+                src="images/friend9.jpg"
+                alt="Profile"
+              />
+              <p>Isabella Scott</p>
+            </div>
+
+            <div class="story">
+              <img class="story-image" src="images/status3.png" alt="Story" />
+              <div class="story-divider"></div>
+              <img
+                class="story-profile"
+                src="images/friend2.jpg"
+                alt="Profile"
+              />
+              <p>John Williams</p>
+            </div>
+
+            <div class="story">
+              <img class="story-image" src="images/status4.png" alt="Story" />
+              <div class="story-divider"></div>
+              <img
+                class="story-profile"
+                src="images/friend3.jpg"
+                alt="Profile"
+              />
+              <p>Susan Brown</p>
+            </div>
+
+            <!-- <div class="story">
+              <img class="story-image" src="images/status5.png" alt="Story" />
+              <div class="story-divider"></div>
+              <img
+                class="story-profile"
+                src="images/friend4.jpg"
+                alt="Profile"
+              />
+              <p>James Jones</p>
+            </div> -->
+          </div>
+
+          <!-- Create post -->
+          <div class="new-post">
+            <div class="create-post">
+              <a href="#"><img src="images/profile.jpg" alt="Profile" /></a>
+              <input
+                type="text"
+                placeholder="What's on your mind, Emma?"
+                disabled
+              />
+            </div>
+
+            <hr class="divider" />
+
+            <div class="create-more">
+              <div class="create-more-item">
+                <img src="images/live.png" alt="Live video" />
+                <p>Live video</p>
+              </div>
+
+              <div class="create-more-item">
+                <img src="images/photo.png" alt="Photo/video" />
+                <p>Photo/video</p>
+              </div>
+
+              <div class="create-more-item">
+                <img src="images/feeling.png" alt="Feeling/activity" />
+                <p>Feeling/activity</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post 1 -->
+          <div class="post-item">
+            <div class="post-header">
+              <div class="author-profile">
+                <img
+                  class="author-profile-image"
+                  src="images/friend9.jpg"
+                  alt="Profile"
+                />
+              </div>
+
+              <div class="author-details">
+                <span class="headline-content">Isabella Scott</span>
+                <div class="date">
+                  <span class="supporting-content">1h</span>
+                  <span class="supporting-content"> · </span>
+                  <img src="images/public.svg" alt="Audience" />
+                </div>
+              </div>
+
+              <div class="post-menu">
+                <div class="button">
+                  <img src="images/post-menu.svg" alt="Menu" />
+                </div>
+                <div class="button">
+                  <img src="images/close.svg" alt="Close" />
+                </div>
+              </div>
+            </div>
+
+            <div class="post-text">
+              <span
+                >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
+                odit quos maxime animi expedita sint exercitationem cumque quae
+                voluptate architecto dolorum. Nemo fugit explicabo asperiores
+                veniam vitae quis, beatae ullam.</span
+              >
+              <a href="#">#Lorem</a>
+            </div>
+
+            <div class="post-image">
+              <img src="images/post1.png" alt="Post image" />
+            </div>
+
+            <div class="post-interactions">
+              <div class="reaction-count">
+                <img src="images/love.svg" alt="Love" />
+                <img
+                  src="images/like.svg"
+                  alt="Like"
+                  style="margin-left: -5px"
+                />
+                <span>&ensp;1.1k</span>
+              </div>
+
+              <div class="comments-share-count">
+                <span>29 comments</span>
+                <span>5 shares</span>
+              </div>
+            </div>
+
+            <hr class="divider" />
+
+            <div class="post-footer">
+              <div class="post-footer-item">
+                <img src="images/like.png" alt="Like" />
+                <span>Like</span>
+              </div>
+              <div class="post-footer-item">
+                <img src="images/comment.png" alt="Comment" />
+                <span>Comment</span>
+              </div>
+              <div class="post-footer-item">
+                <img src="images/share.png" alt="Share" />
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post 2 -->
+          <div class="post-item">
+            <div class="post-header">
+              <div class="author-profile">
+                <img
+                  class="author-profile-image"
+                  src="images/friend8.jpg"
+                  alt="Profile"
+                />
+              </div>
+
+              <div class="author-details">
+                <span class="headline-content">Sophia Allen</span>
+                <div class="date">
+                  <span class="supporting-content">23 May</span>
+                  <span class="supporting-content"> · </span>
+                  <img src="images/public.svg" alt="Audience" />
+                </div>
+              </div>
+
+              <div class="post-menu">
+                <div class="button">
+                  <img src="images/post-menu.svg" alt="Menu" />
+                </div>
+                <div class="button">
+                  <img src="images/close.svg" alt="Close" />
+                </div>
+              </div>
+            </div>
+
+            <div class="post-text">
+              <span
+                >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
+                odit quos maxime animi expedit</span
+              >
+              <a href="#">#Lorem</a>
+            </div>
+
+            <div class="post-image">
+              <img src="images/post2.png" alt="Post image" />
+            </div>
+
+            <div class="post-interactions">
+              <div class="reaction-count">
+                <img src="images/love.svg" alt="Love" />
+                <img
+                  src="images/like.svg"
+                  alt="Like"
+                  style="margin-left: -5px"
+                />
+                <span>&ensp;5.1k</span>
+              </div>
+
+              <div class="comments-share-count">
+                <span>100 comments</span>
+                <span>56 shares</span>
+              </div>
+            </div>
+
+            <hr class="divider" />
+
+            <div class="post-footer">
+              <div class="post-footer-item">
+                <img src="images/like.png" alt="Like" />
+                <span>Like</span>
+              </div>
+              <div class="post-footer-item">
+                <img src="images/comment.png" alt="Comment" />
+                <span>Comment</span>
+              </div>
+              <div class="post-footer-item">
+                <img src="images/share.png" alt="Share" />
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Post 3 -->
+          <div class="post-item">
+            <div class="post-header">
+              <div class="author-profile">
+                <img
+                  class="author-profile-image"
+                  src="images/friend7.jpg"
+                  alt="Profile"
+                />
+              </div>
+
+              <div class="author-details">
+                <span class="headline-content">Charlotte Robinson</span>
+                <div class="date">
+                  <span class="supporting-content">a day ago</span>
+                  <span class="supporting-content"> · </span>
+                  <img src="images/public.svg" alt="Audience" />
+                </div>
+              </div>
+
+              <div class="post-menu">
+                <div class="button">
+                  <img src="images/post-menu.svg" alt="Menu" />
+                </div>
+                <div class="button">
+                  <img src="images/close.svg" alt="Close" />
+                </div>
+              </div>
+            </div>
+
+            <div class="post-text">
+              <span
+                >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span
+              >
+              <a href="#">#Lorem</a>
+            </div>
+
+            <div class="post-image">
+              <img src="images/post3.png" alt="Post image" />
+            </div>
+
+            <div class="post-interactions">
+              <div class="reaction-count">
+                <img src="images/love.svg" alt="Love" />
+                <img
+                  src="images/like.svg"
+                  alt="Like"
+                  style="margin-left: -5px"
+                />
+                <span>&ensp;10.5k</span>
+              </div>
+
+              <div class="comments-share-count">
+                <span>2.2k comments</span>
+                <span>1.3k shares</span>
+              </div>
+            </div>
+
+            <hr class="divider" />
+
+            <div class="post-footer">
+              <div class="post-footer-item">
+                <img src="images/like.png" alt="Like" />
+                <span>Like</span>
+              </div>
+              <div class="post-footer-item">
+                <img src="images/comment.png" alt="Comment" />
+                <span>Comment</span>
+              </div>
+              <div class="post-footer-item">
+                <img src="images/share.png" alt="Share" />
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right sidebar -->
+      <div class="right-sidebar">
+        <div class="header">
+          <span>Contacts</span>
+          <div class="button">
+            <img src="images/search.svg" alt="Search" />
+          </div>
+          <div class="button">
+            <img src="images/options.svg" alt="Options" />
+          </div>
+        </div>
+
+        <div class="list-friends">
+          <div class="online">
+            <img src="images/friend1.jpg" alt="" />
+          </div>
+          <p>Genesis Smith</p>
+        </div>
+
+        <div class="list-friends">
+          <div class="not-online">
+            <img src="images/friend2.jpg" alt="" />
+          </div>
+          <p>John Williams</p>
+        </div>
+
+        <div class="list-friends">
+          <div class="online">
+            <img src="images/friend3.jpg" alt="" />
+          </div>
+          <p>Susana Brown</p>
+        </div>
+
+        <div class="list-friends">
+          <div class="online">
+            <img src="images/friend4.jpg" alt="" />
+          </div>
+          <p>James Jones</p>
+        </div>
+
+        <div class="list-friends">
+          <div class="online">
+            <img src="images/friend5.jpg" alt="" />
+          </div>
+          <p>Alice Wilson</p>
+        </div>
+
+        <div class="list-friends">
+          <div class="not-online">
+            <img src="images/friend6.jpg" alt="" />
+          </div>
+          <p>Taylor Moore</p>
+        </div>
+
+        <div class="list-friends">
+          <div class="online">
+            <img src="images/friend7.jpg" alt="" />
+          </div>
+          <p>Charlotte Robinson</p>
+        </div>
+
+        <div class="list-friends">
+          <div class="not-online">
+            <img src="images/friend8.jpg" alt="" />
+          </div>
+          <p>Sophia Allen</p>
+        </div>
+
+        <div class="list-friends">
+          <div class="not-online">
+            <img src="images/friend9.jpg" alt="" />
+          </div>
+          <p>Isabella Scott</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="footer">
+          <span>Group conversations</span>
+          <div class="list-friends">
+            <div class="button">
+              <img src="images/add.svg" alt="See more" />
+            </div>
+            <p>Create New Group</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
